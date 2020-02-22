@@ -1,0 +1,74 @@
+.jan li{
+ font-weight: 300; 
+ color:black;
+ list-style-type: none;
+ width: 13.6%;
+ display:inline-block;
+ padding:2px;
+ }
+.weeks li{
+    font-weight: 100; 
+    color:rgb(14, 4, 58);
+    list-style-type: none;
+    width: 13.6%;
+    display:inline-flex;
+    padding:2px;
+}
+.weekname{
+    height: 35px;
+    margin: auto;
+    border-bottom:5px solid rgb(10, 61, 3);
+    background-color:rgb(132, 246, 132);
+    box-sizing: border-box;
+    padding-left:70px;
+}
+.days{
+    font-size: 18px;
+    margin: auto;
+    background-color: rgb(132, 246, 132);
+    padding:50px 0px ;
+    box-sizing: border-box;
+    padding-left: 70px;
+
+}
+.box{
+    width: 90%;
+    margin: auto;
+    
+}
+.year{
+    text-align: center;
+    margin: auto;
+    height: 100px;
+    width: 90%;
+    letter-spacing: 0.1em;
+    font-size: 30px;
+    font-style: italic;
+    font-family: cursive;
+    background-color: rgb(3, 87, 3);
+    padding-top: 50px;
+}
+.prev{
+    font-weight: 400;
+    font-size: 40px;
+    float: left;
+    color: black;
+    padding-left:100px;
+}
+.next{
+    font-weight: 400;
+    font-size: 40px;
+    float: right;
+    color: black;
+    padding-right:100px;
+
+}
+a:link{
+    text-decoration:none;
+    color:black;
+    padding-top: 40px;
+}
+a:hover{
+    color: white;
+    transition: 1s;
+}
